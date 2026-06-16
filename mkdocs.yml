@@ -1,0 +1,124 @@
+site_name: PrecisionStack
+site_description: PrecisionStack — the open precision-medicine and clinical-trials handbook. Patient stratification, treatment-response prediction, risk prediction, clinical decision support, trial matching, synthetic controls, adaptive trials.
+site_url: https://phindagijimana.github.io/precision_stack/
+repo_url: https://github.com/phindagijimana/precision_stack
+repo_name: phindagijimana/precision_stack
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.indexes
+    - navigation.path
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.code.annotate
+    - content.action.edit
+    - toc.follow
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: deep purple
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: deep purple
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+  font:
+    text: Inter
+    code: JetBrains Mono
+  icon:
+    repo: fontawesome/brands/github
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+nav:
+  - Home: index.md
+  - Getting started:
+      - getting-started/index.md
+      - 1. What precision medicine actually is: getting-started/what-is-precision-medicine.md
+      - 2. The patient-as-a-trajectory model: getting-started/patient-trajectory.md
+      - 3. What AI can and cannot answer: getting-started/what-ai-can-answer.md
+  - Foundations:
+      - foundations/index.md
+      - Patient heterogeneity: foundations/patient-heterogeneity.md
+      - Data modalities: foundations/data-modalities.md
+      - Bias and confounding: foundations/bias-and-confounding.md
+  - Tasks:
+      - tasks/index.md
+      - A. Patient stratification: tasks/stratification.md
+      - B. Treatment-response prediction: tasks/treatment-response.md
+      - C. Risk prediction: tasks/risk-prediction.md
+      - D. Clinical decision support: tasks/clinical-decision-support.md
+      - E. Trial matching: tasks/trial-matching.md
+      - F. Synthetic control arms: tasks/synthetic-controls.md
+      - G. Adaptive clinical trials: tasks/adaptive-trials.md
+  - Methods:
+      - methods/index.md
+      - Causal inference: methods/causal-inference.md
+      - Survival analysis: methods/survival-analysis.md
+      - Unsupervised subtyping: methods/unsupervised-subtyping.md
+      - Evaluation and calibration: methods/evaluation.md
+  - Case studies:
+      - case-studies/index.md
+      - Epilepsy surgery: case-studies/epilepsy.md
+      - Oncology — immunotherapy response: case-studies/oncology.md
+      - Alzheimer's progression subtypes: case-studies/alzheimers.md
+  - Regulatory:
+      - regulatory/index.md
+      - CONSORT-AI and SPIRIT-AI: regulatory/consort-spirit.md
+      - DECIDE-AI: regulatory/decide-ai.md
+      - FDA pathways for AI/ML CDS: regulatory/fda-pathways.md
+  - Glossary: glossary.md
+  - Further reading: further-reading.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/phindagijimana/precision_stack
+  generator: false
