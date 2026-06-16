@@ -56,6 +56,11 @@ mkdocs serve
 
 Early. Content is being ported and expanded chapter-by-chapter. The tasks and methods sections are the most complete; case studies and regulatory sections are growing. Contributions and corrections are welcome — open an [issue](https://github.com/phindagijimana/precision_stack/issues) or a [pull request](https://github.com/phindagijimana/precision_stack/pulls).
 
+## Contact
+
+- 💼 **LinkedIn:** [Philbert Ndagijimana](https://www.linkedin.com/in/philbert-ndagijimana-319570188/)
+- ✉️ **Email:** [phindagiji@gmail.com](mailto:phindagiji@gmail.com)
+
 ## License
 
 [MIT](LICENSE).

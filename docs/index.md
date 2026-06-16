@@ -62,4 +62,10 @@ flowchart LR
 
 Where a topic is covered better in NeuroStack — e.g., the imaging modality itself, the data-engineering DAG that produces the features, evaluation traps specific to imaging — we link out rather than duplicate. Where the precision-medicine framing extends or overrides what NeuroStack says, we say so explicitly.
 
+## Contact
+
+- 💼 **LinkedIn:** [Philbert Ndagijimana](https://www.linkedin.com/in/philbert-ndagijimana-319570188/)
+- ✉️ **Email:** [phindagiji@gmail.com](mailto:phindagiji@gmail.com)
+- 🐙 **GitHub:** [phindagijimana/precision_stack](https://github.com/phindagijimana/precision_stack) — open an [issue](https://github.com/phindagijimana/precision_stack/issues) or a [pull request](https://github.com/phindagijimana/precision_stack/pulls)
+
 Welcome.

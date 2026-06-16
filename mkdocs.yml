@@ -121,4 +121,11 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/phindagijimana/precision_stack
+      name: precision_stack on GitHub
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/philbert-ndagijimana-319570188/
+      name: Philbert Ndagijimana on LinkedIn
+    - icon: fontawesome/solid/envelope
+      link: mailto:phindagiji@gmail.com
+      name: Email phindagiji@gmail.com
   generator: false
